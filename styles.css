@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-shrink: 0;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sidebar {
+    display: flex;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+a:link {
+    color: #E5E7EB;
+    filter: contrast(80%);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 280px;
+    background-color: red;
+    color: #F9FaF8;   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-shrink: 0;
+
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.awesome {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    word-wrap: break-word;
+    width: 350px;
+}
+
+.subtext {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    filter: contrast(70%);
+    word-wrap: break-word;
+    width: 450px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.button {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 12px;    
+    max-width: 100px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e7e7e;
+    font-size: 18px;
+    font-style: italic;
+    width: 600px;
+    height: 250px;
+}
