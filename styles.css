@@ -242,4 +242,10 @@ a:link {
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
+    transition-duration: 0.1s;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #3882f6;
 }
